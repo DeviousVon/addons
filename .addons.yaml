@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  mosquitto:
+    repository: addons/mosquitto
+    target: mosquitto
+    image: DeviousVon/addons/mosquitto/{arch}
